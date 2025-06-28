@@ -51,3 +51,14 @@ except (TypeError, ZeroDivisionError, OperadorInvalido) as error:
     print(f"Error: {error}")
 
 ```
+
+### Output: 
+```
+7
+0
+10
+16
+Error: No se puede dividir por cero.
+Error: No ingresaste un operador valido
+Error: Los valores deben ser números.
+```
